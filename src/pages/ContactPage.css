@@ -1,0 +1,130 @@
+.contact-page {
+    padding: 2rem 0 4rem;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-info > p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--light-text);
+  }
+  
+  .contact-methods {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .contact-method {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .contact-method svg {
+    color: var(--primary-color);
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+  
+  .contact-method h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .contact-method p {
+    color: var(--light-text);
+  }
+  
+  .contact-form-container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  .contact-form .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 992px) {
+    .contact-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2rem;
+    }
+  
+    .contact-info h2 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-info > p {
+      font-size: 1rem;
+    }
+  
+    .contact-form-container {
+      padding: 1.5rem;
+    }
+  }
+  

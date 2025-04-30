@@ -110,6 +110,7 @@
   
   .article-share {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 1rem;
     margin-top: 2rem;
@@ -151,6 +152,7 @@
   }
   
   @media (max-width: 768px) {
+    
     .article-header h1 {
       font-size: 2rem;
     }

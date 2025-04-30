@@ -98,7 +98,8 @@ const ArticleDetailPage = () => {
                   .map((relatedArticle) => (
                     <div key={relatedArticle.id} className="related-article-card">
                       <div className="related-article-image">
-                        <img src={relatedArticle.image || "/placeholder.svg"} alt={relatedArticle.title} />
+                        
+                      <img src={relatedArticle.image || "/placeholder.svg"} alt={relatedArticle.title} />
                       </div>
                       <div className="related-article-content">
                         <h4>{relatedArticle.title}</h4>

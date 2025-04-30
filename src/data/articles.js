@@ -23,7 +23,7 @@ const articles = [
       date: "May 1, 2023",
       category: "Stories",
       readingTime: 5,
-      image: "1st.png",
+      image: "../1st.png",
     },
     {
       id: 2,
@@ -69,7 +69,7 @@ const articles = [
       date: "May 3, 2023",
       category: "Health",
       readingTime: 6,
-      image: "selfcare.jpg",
+      image: "../selfcare.jpg",
     },
     {
       id: 3,
@@ -108,7 +108,7 @@ const articles = [
       date: "May 5, 2023",
       category: "Inspiration",
       readingTime: 7,
-      image: "Taught.jpg",
+      image: "../Taught.jpg",
     },
     {
       id: 4,
@@ -169,7 +169,7 @@ const articles = [
       date: "May 7, 2023",
       category: "Stories",
       readingTime: 8,
-      image: "single.jpg",
+      image: "../single.jpg",
     },
     {
       id: 5,
@@ -223,7 +223,7 @@ const articles = [
       date: "May 8, 2023",
       category: "Culture",
       readingTime: 7,
-      image: "mothers.jpg",
+      image: "../mothers.jpg",
     },
     {
       id: 6,
@@ -309,7 +309,7 @@ const articles = [
       date: "May 10, 2023",
       category: "Inspiration",
       readingTime: 8,
-      image: "motherhood.jpg",
+      image: "../motherhood.jpg",
     },
     {
         "id": 7,
@@ -320,7 +320,7 @@ const articles = [
         "date": "May 3, 2025",
         "category": "Awareness",
         "readingTime": 6,
-        "image": "mental-load.jpg"
+        "image": "../mental-load.jpg"
     },
     {
         "id": 8,
@@ -331,7 +331,7 @@ const articles = [
         "date": "May 4, 2025",
         "category": "Tribute",
         "readingTime": 5,
-        "image": "grandmother.jpg"
+        "image": "../grandmother.jpg"
     },
     {
         "id": 9,
@@ -342,7 +342,7 @@ const articles = [
         "date": "May 5, 2025",
         "category": "Empowerment",
         "readingTime": 4,
-        "image": "tech-mom.jpg"
+        "image": "../tech-mom.jpg"
     },
     {
         "id": 10,
@@ -353,7 +353,7 @@ const articles = [
         "date": "May 6, 2025",
         "category": "Personal Stories",
         "readingTime": 7,
-        "image": "letters-to-mom.jpg"
+        "image": "../letters-to-mom.jpg"
     },
     {
         "id": 11,
@@ -364,7 +364,7 @@ const articles = [
         "date": "May 7, 2025",
         "category": "Science",
         "readingTime": 6,
-        "image": "mother-touch.jpg"
+        "image": "../mother-touch.jpg"
     },
     {
         "id": 12,
@@ -375,7 +375,7 @@ const articles = [
         "date": "May 8, 2025",
         "category": "Health",
         "readingTime": 5,
-        "image": "postpartum-care.jpg"
+        "image": "../postpartum-care.jpg"
     },
     {
         "id": 13,
@@ -386,7 +386,7 @@ const articles = [
         "date": "May 8, 2025",
         "category": "Culture",
         "readingTime": 6,
-        "image": "mythical-moms.jpeg"
+        "image": "../mythical-moms.jpeg"
     },
     {
         "id": 14,
@@ -397,7 +397,7 @@ const articles = [
         "date": "May 9, 2025",
         "category": "Stories",
         "readingTime": 7,
-        "image": "generational-mothers.jpg"
+        "image": "../generational-mothers.jpg"
     },
     {
         "id": 15,
@@ -408,7 +408,7 @@ const articles = [
         "date": "May 9, 2025",
         "category": "Culture",
         "readingTime": 5,
-        "image": "mom-remedies.jpg"
+        "image": "../mom-remedies.jpg"
     },
     {
         "id": 16,
@@ -419,7 +419,7 @@ const articles = [
         "date": "May 9, 2025",
         "category": "Health",
         "readingTime": 6,
-        "image": "mental-health-moms.jpg"
+        "image": "../mental-health-moms.jpg"
     }
 
 

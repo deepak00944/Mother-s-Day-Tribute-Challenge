@@ -6,7 +6,7 @@ const Sidebar = () => {
     <aside className="sidebar">
       <div className="sidebar-section author-profile">
         <div className="author-image">
-          <img src="author.jpg" alt="Author" />
+          <img src="../author.jpg" alt="Author" />
         </div>
         <h3>About the Author</h3>
         <p>
